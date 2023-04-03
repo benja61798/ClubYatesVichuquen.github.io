@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.menu{
+    background-color: bisque;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+    margin-bottom: 60px;
+
+}
+
+.menu a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    background-color: bisque;
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    transform: translateY(18px);
+    background-color: beige;
+}

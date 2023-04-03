@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header{
+    padding: 5px;
+    text-align: center;
+ }
+
+ nav{
+    display: inline-flexbox;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+ }
+
+ nav a{
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ aside{
+    flex: 30px;
+    padding: 0px;
+ }
+
+ section{
+    flex: 70%;
+    padding: 0px;
+ }
+
+ footer{
+    padding: 20px;
+    text-align: center;
+ }
+
+
+ .separador{
+   width: 100%;
+   height: 500px;
+   background-image: url(../img/06.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   margin-bottom: 100px;
+ }
+ .separador p{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   padding: 10px;
+ }
+
+ .encabezado{
+   width: 100%;
+   height: 100vh;
+   background-image: url(../img/08.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+ .encabezado .fondo{
+   width: 100%;
+   height: 100%;
+   max-width: 100%;
+   background-image: url(../img/11.png);
+   background-repeat: no-repeat;
+   align-items: center;
+   align-content: center;
+ }
+
+ .encabezado .texto{
+   width: calc(100vw - 20px);
+   height: 100vh;
+   font-size: 90px;
+   font-weight: 400;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   mix-blend-mode: multiply;
+ }
+
+ .nosotros{
+   margin-bottom: 60px;
+ }
+
+ .sub{
+   font-size: 20px;
+   color: black;
+   font-weight: 700;
+   z-index: 2;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+ }
+
+ .sub span{
+   background-color: rgb(102, 134, 219);
+   padding: 0 15px;
+   z-index: 99;
+   position: relative;
+ }
+
+ .sub ::after{
+   content: "";
+   display: inline-block;
+   height: 2px;
+   width: 100%;
+   background: rgb(0, 0, 0);
+   position: relative;
+   top: -29px;
+   z-index: 1;
+ }
+
+ .nosotros .titulo{
+   width: 70%;
+   font-size: 44px;
+   text-transform: uppercase;
+   display: inline-block;
+   margin-bottom: 50px;
+ }
+
+ .nosotros .enlace{
+   display: inline-block;
+   margin-top: 40px;
+   color: rgb(102, 134, 219);
+   font-weight: 700;
+   border-bottom: 1px solid transparent;
+   transition: .3s ease all;
+ }
+
+ .nosotros .enlace:hover{
+   text-decoration: none;
+   letter-spacing: 3px;
+   border-bottom: 1px solid rgb(102, 134, 219);
+ }
+
+ .actividades{
+   background: rgb(102, 134, 219);
+   padding: 20px;
+   margin-bottom: 60px;
+ }
+
+ .actividades .titulo{
+   width: 70%;
+   font-size: 44px;
+   text-transform: uppercase;
+   display: inline-block;
+   margin-bottom: 50px;
+ }
