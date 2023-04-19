@@ -58,16 +58,8 @@ h1 {
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-.borde-abajo{
-	border-bottom: 10px dotted rgb(0, 0, 0);
-	border-top-width: 100%;
-	border-right-width: auto;
-}
 .fuente1{
 	font-family: 'Alkatra', cursive;
 }
-.borde-arriba{
-	border-top: 5px inset rgb(0, 0, 0);
-	border-top-width: auto;
-	border-right-width: 100%;
-}
+
+

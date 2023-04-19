@@ -7,30 +7,48 @@
     <link rel="stylesheet" href="css/index2.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav2.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/scrollreveal.js"></script>
     <link type="img/png" rel="icon" href="img/logo1.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Club De Yates Vichuquen</title>
+    <style media="screen">
+		.collage{height: 30vh;
+		          width: 100%;
+		          border-radius: 30px;
+		      	  background-color: rgb(160, 194, 233);
+		      	  background-blend-mode: soft-light;
+		      	  padding: 1px;
+		      	  color: white;
+		          display: flex;
+		          align-items: center;
+		          justify-content: center;
+		          flex-direction: column;
+		          background-size: cover;
+		          background-position: center;}
+    </style>
 </head>
 <body>
-    <div class="encabezado">
+
+    <div class="encabezado" id="home">
 
 
-        <div class="fondo" id="fondo">
+        <div >
             <h1 class="texto">Club De Yates</h1>
         </div>
     </div>
-    <div class="borde-abajo">
-           <nav class="menu">
-             <a href="#">Home</a>
-             <a href="nosotros"> Nosotros</a>
-             <a href="#">Actividades</a>
-             <a href="#">Contacto</a>
-           </nav>
-    <header>
-        <img src="img/logo3.png" alt="" style="height: 100; width:auto;"> 
-
-    </header>    
-    <div class="slider" >
+        <div class="menu" >
+            <ul>
+                <a href="#home">Home</a> 
+               <a href="#nosotros">Nosotros</a> 
+               <a href="#contacto">Contacto</a> 
+                <a href="#actividades">Actividades</a> 
+                <a href="#ofrecemos">Lo Que Ofrecemos</a> 
+            </ul>
+        </div>   
+    <div class="slider">
         <ul>
             <li><img src="img/06.jpg" alt=""></li>
             <li><img src="img/02.jpg" alt=""></li>
@@ -39,34 +57,82 @@
 
         </ul>
     </div>
-     <main class="container">
+     <main class="container ">
         <div class="row nosotros ">
            <div class=" text-center" id="nosotros">
-             <h2 class="sub"><span>¿Quienes Somos?</span></h2>
-             <h3 class="titulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, cumque.</h3>
-             <p>
+             <h2 class="sub "><span>¿Quienes Somos?</span></h2>
+             <h3 class="titulo ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, cumque.</h3>
+             <p class="sas">
                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores id mollitia ea dolor quod consequuntur! Ut est dignissimos voluptates cumque dolorum deserunt excepturi perferendis unde accusantium, nisi itaque vel explicabo laborum corporis incidunt dolore impedit neque esse cum veritatis libero commodi recusandae culpa? Natus asperiores numquam animi, deserunt illum accusantium!
              </p>
               <a href="#" class="enlace">Descubrenos</a>
            </div>
         </div>
-        <div class="separador text-white">
+        <div class="separador ">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugit voluptatibus nisi rem! Modi consectetur reiciendis, vel deleniti rerum quisquam!</p>
            </div> 
         <div class="row actividades">
         <article class="text-center">
-            <h2 class="sub"><span>Lo Que Ofresemos</span></h2>
-            <p class="titulo">Nuestras Actividades</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam esse quam veritatis doloremque, quidem sint dolorum eveniet fugit. Quam distinctio voluptate error impedit alias expedita quidem voluptates? Inventore accusantium placeat dolor itaque vitae facilis. Repellendus, accusantium est. Aut minima eaque itaque repellendus iste qui voluptatem hic, laudantium aspernatur laboriosam.</p>
+            <h2 class="sub" id="ofrecemos"><span>Lo Que Ofresemos</span></h2>
+            <p class="sas">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae blanditiis vel enim alias quis possimus harum dolor, officiis reiciendis natus asperiores inventore. Magnam, tempora! Cumque reprehenderit quos dolores mollitia placeat aperiam, quasi numquam consequatur autem cupiditate! Velit, repellat asperiores! Totam tenetur quos deserunt magnam? Placeat fugit veniam sapiente laboriosam nihil!</p>
+        </div>  
+        </article>
+
+        <br>
+        <br>
+        <article class="text-center">
+       
+            <div class="row actividades">
+            <h2 class="sub" id="actividades"><span> Nuestras Actividades</span></h2>
+            <p class="sas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam esse quam veritatis doloremque, quidem sint dolorum eveniet fugit. Quam distinctio voluptate error impedit alias expedita quidem voluptates? Inventore accusantium placeat dolor itaque vitae facilis. Repellendus, accusantium est. Aut minima eaque itaque repellendus iste qui voluptatem hic, laudantium aspernatur laboriosam.</p>
+        
         </article>
          
      </div> 
     </main>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+      
 
-    <footer>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+
+      <footer class="pie-pagina" id="contacto">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo1.png" alt="Logo de SLee Dw" style="border-radius: 30px;">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook tam"><i class="fa-brands fa-square-facebook" style="color: #2d66c8;"></i></a>
+                    <a href="#" class="fa fa-instagram tam"><i class="fa-brands fa-square-instagram" style="color: #d0537f;"></i></a>
+                    <a href="#" class="fa fa-twitter tam"><i class="fa-brands fa-square-twitter" style="color: #6d97df;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Club Nautico Deportivo Vichuquen</b> - Todos los Derechos Reservados.</small>
+        </div>
+        <iframe style="background-color: beige; height: 500px; width: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.6188657936746!2d-72.0242203243615!3d-34.84067412287017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9666a11991135cbb%3A0xe56f3ceb03dc4edb!2sVichuquen%2C%20Vichuqu%C3%A9n%2C%20Maule!5e0!3m2!1ses-419!2scl!4v1681903287522!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
+        
+            
 
-    <script src="../js/main.js"></script>
+   
+    <script src="js/index.js"></script>
 </body>
 </html>

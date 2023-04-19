@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
  *{
     box-sizing: border-box;
+ }
+ html{
+  scroll-behavior: smooth;
  }
 
  body{
@@ -14,18 +18,7 @@
     text-align: center;
  }
 
- nav{
-    display: inline-flexbox;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
- }
 
- nav a{
-    padding: 20px 26px;
-    text-decoration: none;
-    font-size: 20px;
- }
 
  .row{
     display: flex;
@@ -45,45 +38,44 @@
  footer{
     padding: 20px;
     text-align: center;
+    background: bisque;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
  }
 
 
  .separador{
-   width: 100%;
-   height: 500px;
-   background-image: url(../img/06.jpg);
-   background-position: center;
-   background-size: cover;
-   background-attachment: fixed;
-   margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-image: url(../img/08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 100px;
+  padding: 200px;
  }
  .separador p{
    height: 100%;
-   width: 100%;
-   display: flex;
+   width: auto;
+   display: block;
    align-items: center;
    justify-content: center;
    font-size: 24px;
    padding: 10px;
+   color: rgb(255, 255, 255);
  }
+
+
 
  .encabezado{
    width: 100%;
    height: 100vh;
-   background-image: url(../img/08.jpg);
+   background-image: url(../img/14.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
- }
-
- .encabezado .fondo{
-   width: 100%;
-   height: 100%;
-   max-width: 100%;
-   background-image: url(../img/11.png);
-   background-repeat: no-repeat;
-   align-items: center;
-   align-content: center;
  }
 
  .encabezado .texto{
@@ -96,8 +88,9 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   color: rgb(0, 0, 0);
-   mix-blend-mode: multiply;
+   color: #ffdf00;
+   background-size: cover;
+  
  }
 
  .nosotros{
@@ -114,15 +107,16 @@
  }
 
  .sub span{
-   background-color: rgb(102, 134, 219);
-   padding: 0 15px;
+   background:bisque;
+   padding: 0 400px;
    z-index: 99;
    position: relative;
+   width: 100%;
  }
 
  .sub ::after{
    content: "";
-   display: inline-block;
+  display:initial;
    height: 2px;
    width: 100%;
    background: rgb(0, 0, 0);
@@ -142,7 +136,7 @@
  .nosotros .enlace{
    display: inline-block;
    margin-top: 40px;
-   color: rgb(102, 134, 219);
+   color: rgb(233, 133, 133);
    font-weight: 700;
    border-bottom: 1px solid transparent;
    transition: .3s ease all;
@@ -151,11 +145,10 @@
  .nosotros .enlace:hover{
    text-decoration: none;
    letter-spacing: 3px;
-   border-bottom: 1px solid rgb(102, 134, 219);
+   border-bottom: 1px solid rgb(233, 133, 133);
  }
 
  .actividades{
-   background: rgb(102, 134, 219);
    padding: 20px;
    margin-bottom: 60px;
  }
@@ -167,3 +160,29 @@
    display: inline-block;
    margin-bottom: 50px;
  }
+  .sas{
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+
+  }
+
+  .animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+  }
+  
+  .animate.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .banner{
+    height: 100; 
+    width:auto;
+  }
+
+  #collage{
+    background: beige;
+  }
+
